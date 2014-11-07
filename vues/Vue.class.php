@@ -93,7 +93,6 @@ class Vue {
 							<div class=\"col-md-5 \">
 								<ul class=\"nav navbar-nav\">
 									<li><a href=\"?page=oeuvres-encheres\">Enchères</a></li>
-									<li><a href=\"?page=artistes\">Artistes</a></li>
 									<li><a href=\"?page=contact\">Contact</a></li>
 								</ul>
 							</div>
@@ -153,7 +152,6 @@ class Vue {
 					<section class=\"col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-3\">
 						<ul class=\"list-unstyled\">
 							<li><a href=\"?page=oeuvres-encheres\">Trouver une oeuvre</a></li>
-							<li><a href=\"?page=artistes\">Trouver un artiste</a></li>
 							<li><a href=\"?page=contact\">Nous joindre</a></li>
 						</ul>
 					</section>
@@ -265,8 +263,6 @@ class Vue {
 		}
 
 	}
-
-
 
 	public static function alerte($aMsg) {
 
