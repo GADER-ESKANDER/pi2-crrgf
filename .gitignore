@@ -1,0 +1,19 @@
+# Fichier et dossier à ignorer #
+#
+#
+# Sublime Text #
+*.sublime-*
+sftp-*
+#
+#
+# Aptana
+*.project
+#
+#
+# MAC
+.DS_*
+._*
+#
+#
+# PHP Storm
+.idea/

@@ -1,0 +1,177 @@
+/* ==========================================================================
+ Author's custom styles
+ ========================================================================== */
+
+
+/*----------les pages-------------*/
+
+
+/*commenter  */
+
+
+.icon_commenter span {
+	color: #323b40;
+	border: 1px solid #323b40;
+	padding: 3px;
+	font-size: 3em;
+}
+
+.commentaires form {
+	background-color: #c4c5c7;
+	margin: auto;
+}
+.commentaires textarea {
+
+	width: 97%;
+	margin-left: 20px;
+}
+.commentaires form [type="submit"] {
+	margin-top: 0px;
+	margin-right: 0px;
+	font-size: 12px;
+	width: 10%
+}
+.commentaires legend {
+
+	font-size: .8em;
+	margin-left: 30px;
+}
+.commentaires {
+	margin-top: 1%;
+}
+.Tab_commentaires {
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.commentaires {
+	background-color: #c4c5c7;
+	padding: 1%;
+	/*border-bottom: 1px solid #FFFFFF;*/
+}
+
+.Nom_prenom {
+	font-size: .8em;
+	
+}
+.icon_pos_comm
+{
+	font-size: .8em;
+	color: #0080ff;
+}
+/*----------Page Instructions_commentaires--------- */
+
+#Instructions .col-md-4 {
+	background-color: rgba(0,0,0, .2);
+	padding: 20px;
+}
+#Instructions .col-md-8 {
+	background-color: rgba(255,255,255, .8);
+	padding: 20px;
+}
+
+#Instructions {
+	margin-top: 50px;
+	padding: 60px;
+	padding-top: 80px;
+}
+
+.comment_afficher {
+	background-color: rgba(255, 255, 255, .5);
+	padding: 15px 15px 0px 15px;
+	height: 100%;
+	border-bottom: 1px solid #c4c5c7;
+}
+
+.comment_afficher .abus {
+	font-size: 10px;
+}
+
+.comment_afficher {
+	/*color: red;*/
+}
+
+#Mes_commentaires .commentaires span {
+	color: #323b40;
+	border: 1px solid #323b40;
+	padding: 3px;
+	font-size: 3em;
+}
+
+#Mes_commentaires .comment_afficher span {
+	color: #323b40;
+	border: 1px solid #323b40;
+	padding: 3px;
+	font-size: 3em;
+}
+
+.Danger{
+	color: #FF0000;
+}
+/*----------Page Commentaires_Contact--------- */
+
+#Commont_Contact {
+	height: auto;
+	padding: 10%;
+	margin-top: 110px;
+	color: #727374;
+}
+
+#Commont_Contact table {
+	border: 2px solid #b2b2b2;
+	color: #000000;
+	background-color: rgba(100,100,100, .05);
+}
+
+#Commont_Contact table td {
+	font-size: .9em;
+	/*border: 1px solid #b2b2b2;*/
+}
+
+
+
+
+/*------------page Publier_commentaires---------*/
+
+#Instructions span {
+	font-weight: 700;
+	
+}
+
+#Instructions h1 {
+	font-weight: 700;
+	color:#ff0000 ;
+}
+
+
+
+/*------------Page Contact ---------*/
+#Contact {
+	margin: auto;
+	height: auto;
+	padding: 100px 0px;
+	color: #323b40;
+}
+
+.Contact {
+	margin: auto;
+	width: 80%;
+	height: auto;
+	/*border: 2px solid red;*/
+	/*color: #FFFFFF;*/
+}
+
+.form {
+	margin-bottom: 2%;
+	/*width:50%;*/
+	padding: 30px;
+	background-color: rgba(0, 0, 0, .6);
+}
+.form form {
+	color: #c0c0c0;
+}
+.form form input, .form form textarea {
+	background-color: rgba(0, 0, 0, .5);
+	color: #FFFFFF;
+}
+
+

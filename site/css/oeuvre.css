@@ -1,0 +1,220 @@
+h1
+{
+	text-align:center;
+	font-size:18px;
+	padding-bottom:10px;
+}
+
+button#grille,button#liste
+{
+	float:right;
+	margin-right:10px;	
+}
+
+.icone
+{
+	width:30px;
+	height:30px;
+
+}
+
+.btnIcone
+{
+	float:right;
+	margin-right:30px;
+	margin-top:20px;
+}
+
+article#selection
+{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.grille
+{
+	/*float:left;*/
+
+}
+
+.grille .dimImg
+{
+	width:300px;
+	height:300px;
+	/*margin:40px;*/
+}
+
+
+
+.grille table.cache
+{
+	display:none;
+}
+
+
+.liste
+{
+	float:none;
+	display:block;
+}
+
+.liste img
+{
+	width:250px;
+	height:250px;
+	border: 10px #FFF solid;
+	box-shadow: 6px 6px 6px #888888;
+}
+
+.liste img:hover
+{
+	box-shadow: 20px 20px 20px #888888;
+}
+
+
+.liste span.apparent
+{
+	display:none;
+}
+
+.liste table.cache
+{
+	display:block;
+}
+
+.liste td
+{
+	padding:20px;
+}
+
+.affichage, .row
+{
+	/*margin:0px;*/
+}
+
+.clearfix::after
+{
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.aaa .col-md-4
+{
+	margin:0px;
+	padding:0px;
+}
+
+.thumbnail.col-md-4
+{
+	width: 320px;
+	height: 410px;
+	margin: 10px;
+	padding: 20px;
+	box-shadow: 7px 7px 7px #888888;
+}
+
+.thumbnail.col-md-4:hover
+{
+	box-shadow: 20px 20px 20px #888888;
+}
+
+.liste .thumbnail.col-md-12
+{
+	background: rgba(135, 139, 139, 0.25);
+	box-shadow: 10px 10px 10px #888888;
+}
+
+
+
+tr th 
+{
+	text-align: center;
+	/*padding:5px 20px;*/
+}
+
+table img.tailleImg
+{
+	width:150px;
+	height:150px;
+
+}
+
+.liste tr
+{
+	border:none;
+}
+
+tr
+{
+	border-top: 1px black solid;
+}
+
+td
+{
+	padding:25px;
+}
+
+.cache tr>td
+{
+	width:400px;
+}
+
+tr td:nth-of-type(2)
+{
+width:350px;
+
+}
+
+.imgposition
+{
+	width:300px;
+}
+
+
+.hauteur
+{
+	height:500px;
+}
+
+.infos
+{
+	margin-top:130px;
+}
+
+.infos label
+{
+	width:150px;
+	text-align:right;	
+	padding-right:10px;	
+}
+.infos input
+{
+	width:200px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	line-height:1.5em;	
+}
+
+textarea
+{
+	width:250px;
+	height:100px;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+input[type="file"]
+{
+	/*margin-left:15px;*/
+}
+
+input[type="submit"] 
+{
+	float: right;
+	margin-right: 35px;
+}
+
+.erreur
+{
+	color:red;
+}

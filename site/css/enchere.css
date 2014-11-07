@@ -1,0 +1,59 @@
+input
+{
+    display: block;
+}
+.tempRestant
+{
+    color: darkred;
+}
+#divCreerEnchere .form-group
+{
+    margin-top: 10px;
+    clear: both;
+}
+#divCreerEnchere .prixEnchere > div
+{
+    clear: both;
+    margin-bottom: 10px;
+}
+#divCreerEnchere .prixEnchere > div input
+{
+    float: left;
+}
+#divCreerEnchere .prixEnchere span
+{
+
+}
+.apercuEnchere
+ {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     height: 400px;
+     /*border: 1px #323b40 solid;*/
+ }
+.apercuEnchere .picBox
+{
+    height: 250px;
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px #323b40 solid;
+    border-bottom: 0px #323b40 solid;
+}
+.apercuEnchere .textBox
+{
+    border: 1px #323b40 solid;
+    padding: 5px;
+}
+.apercuEnchere img
+{
+    width: 120%;
+    height: auto;
+}
+.apercuEnchere h2
+{
+    margin-top: 10px;
+}
+#creerEncherePicBox img
+{
+    width: 100%;
+}
