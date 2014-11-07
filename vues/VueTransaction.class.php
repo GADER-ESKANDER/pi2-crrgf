@@ -82,8 +82,7 @@ class VueTransaction {
 							<h1 class=\"text-center\">Paiement Annulé!</h1>
 							<p class=\"text-center\">La transaction a été annulé.</p>
 						</header>
-						<p>Si vous en êtes pas la cause, veuillez réessayer un peu plus tard ou bien communiquer avec nous.</p>
-						<pre>"; var_dump($_POST); echo "</pre>
+						<p>Si vous n'en êtes pas la cause, veuillez réessayer un peu plus tard ou bien <a href=\"?page=contact\">communiquer avec nous</a>.</p>
 					</article>
 				</section>
 			</article>

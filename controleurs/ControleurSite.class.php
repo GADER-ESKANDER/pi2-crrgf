@@ -1354,11 +1354,11 @@ class ControleurSite extends Controleur{
 
         try {
 
-            VueVente::toutes();
+            VueVente::listeVentes();
 
         } catch (Exception $e) {
 
-            VueVente::toutes(array("type"=>"danger","msg"=>"Une erreur est survenu."));
+            Vue::alerte(array("type"=>"danger","msg"=>$e->getMessage()));
 
         }
 
