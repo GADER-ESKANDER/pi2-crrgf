@@ -1,0 +1,18 @@
+.table-ventes a span{
+	padding: 5px;
+	margin: 0 2px;
+	font-size: 18px;
+	opacity: 0.5;
+}
+
+.table-ventes a:hover span{
+	opacity: 1;
+}
+
+.table-ventes span.glyphicon-remove-circle{
+	color: #FF0000;
+}
+
+.table-ventes span.glyphicon-ok-circle{
+	color: #00FF00;
+}
